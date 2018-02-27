@@ -1,4 +1,4 @@
 <?php
 header("Access-Control-Allow-Origin: *");
-echo("test:'this works'")
+print_r($_GET);
 ?>
