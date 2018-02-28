@@ -1,4 +1,3 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-print_r(json_encode($_GET));
+echo("test connection" . print_r($_GET))
 ?>
