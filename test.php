@@ -1,6 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-<?php 
+header("Access-Control-Allow-Origin: *"); 
 include_once("./grab.php");
 try{
 $url=(isset($_GET['url']))?$_GET['url']:'';
